@@ -5,7 +5,7 @@ const bodyParser = require('body-parser');
 const app = express();
 
 //setting template engine
-app.set('view engine', 'pug');
+app.set('view engine', 'ejs');
 //where to find it 
 app.set('views', 'views');
 

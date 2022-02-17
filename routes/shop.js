@@ -5,7 +5,7 @@ const express = require('express');
 const rootDir = require('../util/path');
 
 const adminData = require('./admin');
-const { render } = require('express/lib/response');
+
 const router = express.Router();
 
 router.get('/', (req, res, next) => {
