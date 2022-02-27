@@ -4,11 +4,10 @@ const express = require('express');
 const bodyParser = require('body-parser');
 
 const errorController = require('./controllers/error');
+
 const app = express();
 
-//setting the ejs template
 app.set('view engine', 'ejs');
-//where to find
 app.set('views', 'views');
 
 const adminRoutes = require('./routes/admin');
